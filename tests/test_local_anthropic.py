@@ -2,7 +2,7 @@
 Test script: local folder source + Anthropic API provider
 
 Usage:
-    export ANTHROPIC_API_KEY="sk-ant-ap****"
+    export ANTHROPIC_API_KEY="sk-ant-api_key_here"
     python test_local_anthropic.py
 
 This calls the diagnose_spark_failure and optimize_spark_performance

@@ -26,9 +26,10 @@ import json
 import os
 from typing import Optional
 
-from mcp.server.mcpserver import MCPServer
+# from mcp.server.mcpserver import MCPServer
+from mcp.server.fastmcp import FastMCP
 
-mcp = MCPServer("sparksense")
+mcp = FastMCP("sparksense")
 
 DEFAULT_BEDROCK_MODEL_ID = os.environ.get(
     "SPARKSENSE_BEDROCK_MODEL_ID",
